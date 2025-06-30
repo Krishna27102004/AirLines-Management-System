@@ -34,9 +34,11 @@ This project is a Salesforce-based Airlines Management System designed to stream
   - Booking__c
 
 - **Apex Classes & Triggers:**
-  - `FlightBookingTrigger`
-  - `PhnValid_PassengerObj`
-  - `BookingController`
+✅ PhnValidTrigger.trigger
+
+✅ PhnValid_PassengerObj.cls
+
+✅ PhnValid_TestClass.cls
 
 - **Validation Rules & Workflows**
 
