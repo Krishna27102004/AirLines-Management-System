@@ -34,6 +34,7 @@ This project is a Salesforce-based Airlines Management System designed to stream
   - Booking__c
 
 - **Apex Classes & Triggers:**
+  
 ✅ PhnValidTrigger.trigger
 
 ✅ PhnValid_PassengerObj.cls
@@ -41,6 +42,4 @@ This project is a Salesforce-based Airlines Management System designed to stream
 ✅ PhnValid_TestClass.cls
 
 - **Validation Rules & Workflows**
-
-## 📂 Folder Structure (SFDX Format)
 
