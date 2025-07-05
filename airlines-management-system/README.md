@@ -1,18 +1,48 @@
-# Salesforce DX Project: Next Steps
+# ✈️ Airlines Management System - Salesforce Project
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+This project is a **Salesforce-based Airlines Management System** designed to manage flight bookings, passenger information, and validation logic using Apex classes and triggers.
 
-## How Do You Plan to Deploy Your Changes?
+---
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## 📂 Project Structure
 
-## Configure Your Salesforce DX Project
+- `PhnValid_PassengerObj.cls`: Apex class for validating passenger phone numbers.
+- `PhnValidTrigger.trigger`: Trigger to automate phone validation on `Passenger__c` object.
+- `PhnValid_TestClass.cls`: Test class for trigger and validation logic.
+- `Airlines_Management_Complete_Phase_Wise_Report.docx`: Detailed documentation.
+- `README.md`: Project overview.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+---
 
-## Read All About It
+## 🔧 Features
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+- ✅ Phone number validation for passenger records.
+- ✅ Apex trigger and reusable handler class (`PhnValid_PassengerObj`).
+- ✅ Unit testing with over 75% coverage.
+- ✅ Organized Salesforce metadata structure.
+- ✅ Clean and modular Salesforce DX project.
+
+---
+
+## 🚀 Technologies Used
+
+- Salesforce DX (SFDX CLI)
+- Apex Programming
+- VS Code + Salesforce Extensions
+- Git & GitHub
+
+---
+
+## 📸 Screenshots
+
+> _[Add screenshots of your Salesforce Org or Apex class execution if available]_  
+_(optional section)_
+
+---
+
+## 📜 How to Use
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Krishna27102004/airlines-management-system.git
